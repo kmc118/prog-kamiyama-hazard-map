@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "name": "kamiyama-school-route-hazards",
+  "license": "CC BY 4.0",
+  "source": "Created sample open data for school-route safety mapping in Kamiyama, Tokushima",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "open-data-crossing",
+      "properties": {
+        "title": "横断注意ポイント",
+        "color": "red",
+        "detail": "県道沿いの横断箇所。登校時間帯は車両の流れが続くため、見守り確認を優先。",
+        "source": "作成データ: 通学路安全点検"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.34878, 33.96872]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "open-data-narrow-road",
+      "properties": {
+        "title": "道幅が狭い区間",
+        "color": "yellow",
+        "detail": "歩道の余裕が小さい区間。雨天時や下校時間帯は車との距離に注意。",
+        "source": "作成データ: 通学路安全点検"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.35342, 33.96692]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "open-data-riverside",
+      "properties": {
+        "title": "川沿いの見通し確認",
+        "color": "blue",
+        "detail": "水路付近の曲がり角。自転車と歩行者が交差するため、合流前の確認が必要。",
+        "source": "作成データ: 通学路安全点検"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.35708, 33.97018]
+      }
+    }
+  ]
+}
