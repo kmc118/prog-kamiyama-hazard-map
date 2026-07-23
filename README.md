@@ -26,7 +26,7 @@
 マイルートに登録することでいつでも見返すことができます。また、マイルートは自分で線を引くことで作成することも可能です。
 
 ### 使用したデータ
--Open street map contributors
+- Open street map contributors
 - HTML5 / CSS3
 - JavaScript（ES Modules）
 - React 19.2.7
