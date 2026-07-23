@@ -26,4 +26,35 @@
 マイルートに登録することでいつでも見返すことができます。また、マイルートは自分で線を引くことで作成することも可能です。
 
 ### 使用したデータ
-Open street map contributors
+-Open street map contributors
+- HTML5 / CSS3
+- JavaScript（ES Modules）
+- React 19.2.7
+- Vite 6.4.3
+- GeoJSON
+- Fetch API
+- Pointer Events
+- Web Storage API（localStorage）
+- GitHub Actions
+- GitHub Pages
+
+| ライブラリ名 | バージョン | 用途 | ライセンス |
+| React | 19.2.7 | UIの構築と状態管理 | MIT License |
+| React DOM | 19.2.7 | React画面のブラウザ表示 | MIT License |
+| Vite | 6.4.3 | 開発サーバーと本番ビルド | MIT License |
+| @vitejs/plugin-react | 5.2.0 | ViteでReactを利用するためのプラグイン | MIT License |
+
+- `public/data/progq205-3.geojson`
+  - 神山町の危険箸所を表示するためのGeoJSONデータ
+  - データの作成者・提供元・再利用条件は、確認できる場合は追記してください
+- [OpenStreetMap](https://www.openstreetmap.org/copyright)
+  - 地図タイルの表示に使用
+  - © OpenStreetMap contributors
+  - Open Database License（ODbL 1.0）
+- [OSRM](https://github.com/Project-OSRM/osrm-backend)
+  - 自宅から目的地までのルート探索と、手描きルートの道路への補正に使用
+  - OSRM BackendはBSD 2-Clause License
+- [Open-Meteo](https://open-meteo.com/en/licence)
+  - 神山町の天気・気温・昼夜情報の取得に使用
+  - APIデータはCC BY 4.0
+  - 無料APIは非商用利用条件に基づいて使用
