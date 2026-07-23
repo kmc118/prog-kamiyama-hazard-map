@@ -26,7 +26,7 @@
 マイルートに登録することでいつでも見返すことができます。また、マイルートは自分で線を引くことで作成することも可能です。
 
 ### 使用したデータ
--Open street map contributors
+- Open street map contributors
 - HTML5 / CSS3
 - JavaScript（ES Modules）
 - React 19.2.7
@@ -38,11 +38,11 @@
 - GitHub Actions
 - GitHub Pages
 
-| ライブラリ名 | バージョン | 用途 | ライセンス |
-| React | 19.2.7 | UIの構築と状態管理 | MIT License |
-| React DOM | 19.2.7 | React画面のブラウザ表示 | MIT License |
-| Vite | 6.4.3 | 開発サーバーと本番ビルド | MIT License |
-| @vitejs/plugin-react | 5.2.0 | ViteでReactを利用するためのプラグイン | MIT License |
+ライブラリ名/バージョン/用途
+- React/19.2.7/UIの構築と状態管理
+- React DOM/19.2.7/React画面のブラウザ表示
+- Vite/6.4.3/開発サーバーと本番ビルド
+- @vitejs/plugin-react/5.2.0/ViteでReactを利用するためのプラグイン
 
 - `public/data/progq205-3.geojson`
   - 神山町の危険箸所を表示するためのGeoJSONデータ
